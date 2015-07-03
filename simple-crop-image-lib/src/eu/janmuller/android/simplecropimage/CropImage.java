@@ -257,7 +257,7 @@ public class CropImage extends MonitoredActivity {
         mImageView.setImageBitmapResetBase(mBitmap, true);
 
         Util.startBackgroundJob(this, null,
-                "Please wait\u2026",
+                getString(R.string.plz_wait),
                 new Runnable() {
                     public void run() {
 
